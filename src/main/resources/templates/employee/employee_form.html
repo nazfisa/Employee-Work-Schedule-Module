@@ -32,7 +32,7 @@
                         <hr>
 
 <!--                        <p class="h4 mb-4"></p>-->
-                        <div  class= "h4 mb-4 text-danger" th:if="${errorMessage}">
+                        <div  class="alert alert-danger" role="alert" th:if="${errorMessage}">
                             <div th:text="${errorMessage}"></div>
                         </div>
 
